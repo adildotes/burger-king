@@ -1,0 +1,32 @@
+body {
+    font-family: flame-bold;
+    background-color: #f5ebdc;
+} 
+
+@font-face {
+    font-family: "flame bold";
+    src: url('font/flame-burger-king-font/Flame-Regular.woff');
+}
+* {
+    font-family: "flame bold";
+}
+
+.nav-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f5ebdc;
+    align-items: center;
+    height: 50px;
+    border-top: 2px solid brown;
+    z-index: 1;
+}
+
+.nav-header {
+    position: fixed;
+    background-color: #f5ebdc;
+    top: 1px;
+}
+
+.icon-algin {
+    width: 35%;
+}
